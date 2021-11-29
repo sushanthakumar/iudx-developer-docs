@@ -8,8 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'IUDX Documentation',
   tagline: 'Learn about exploring, building , deploying your apps with IUDX',
-  // url: 'https://your-docusaurus-test-site.com',
-  url: 'https://iudx-docs-test.netlify.app/',
+  url: 'https://iudx-developer-docs.netlify.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -24,13 +23,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/Rnaaz/Docusauraus-Documentation/tree/main/website/',
+          editUrl: 'https://github.com/datakaveri/iudx-developer-docs/blob/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/Rnaaz/Docusauraus-Documentation/tree/main/website/blog/',
+            'https://github.com/datakaveri/iudx-developer-docs/tree/main/blog',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -44,15 +43,7 @@ const config = {
     
     ({
       hideOnScroll: true,
-      // algolia:{
-      //   apiKey:'e97ada3dd14df6ed0585fa59685b8250',
-      //   indexName:'iudx',
-      //   contextualSearch:true,
-      //   placeholder:'Search here...',
-      //   appId:'INWOKNK00I',
-      //   //other search parameters
-      // },
-      navbar: {
+        navbar: {
         title: '',
         logo: {
           alt: 'My Site Logo',
