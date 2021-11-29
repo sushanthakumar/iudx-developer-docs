@@ -68,7 +68,7 @@ const config = {
           {to: '/blog', label: 'Blog', position: 'left'},
           {to: '/new-page', label: 'NewPage', position: 'left'},
           {
-            href: 'https://github.com/Rnaaz/Docusauraus-Documentation',
+            href: 'https://github.com/datakaveri/iudx-developer-docs',
             label: 'GitHub',
             position: 'right',
           },
@@ -112,7 +112,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/Rnaaz/Docusauraus-Documentation',
+                href: 'https://github.com/datakaveri/iudx-developer-docs',
               },
             ],
           },
