@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'IUDX Documentation',
   tagline: 'Learn about exploring, building , deploying your apps with IUDX',
-  url: 'https://iudx-developer-docs.netlify.app/',
+  url: 'https://docs.iudx.org.in/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -22,14 +22,14 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
+          // Please change this to your repo docs
           editUrl: 'https://github.com/datakaveri/iudx-developer-docs/blob/main/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
+          // Please change this to your repo blog
           editUrl:
-            'https://github.com/datakaveri/iudx-developer-docs/tree/main/blog',
+            'https://github.com/datakaveri/iudx-developer-docs/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
