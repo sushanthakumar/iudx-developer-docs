@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'IUDX Documentation',
   tagline: 'Learn about exploring, building , deploying your apps with IUDX',
-  url: 'https://iudx-developer-docs.netlify.app/',
+  url: 'https://docs.iudx.org.in/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -22,14 +22,14 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
+          // Please change this to your repo docs
           editUrl: 'https://github.com/datakaveri/iudx-developer-docs/blob/main/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
+          // Please change this to your repo blog
           editUrl:
-            'https://github.com/datakaveri/iudx-developer-docs/tree/main/blog',
+            'https://github.com/datakaveri/iudx-developer-docs/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -51,11 +51,35 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
+            type: 'dropdown',
+            label: 'Who Are You',
             position: 'left',
-            label: 'Getting Started',
+            items: [
+              {
+                label: 'Provider',
+                href: '/docs/intro',
+              },
+              {
+                label: 'Consumer',
+                href: 'https://iudx.org.in',
+              },
+              {
+                label: 'Delegate',
+                href: 'https://iudx.org.in',
+              },
+              {
+                label: 'Admin',
+                type: 'doc',
+                docId: 'intro',
+              }              
+            ],
           },
+          // {
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'left',
+          //   label: 'Getting Started',
+          // },
           {to: '/blog', label: 'Blog', position: 'left'},
           {to: '/new-page', label: 'NewPage', position: 'left'},
           {
@@ -67,6 +91,12 @@ const config = {
       },
       footer: {
         style: 'dark',
+        logo: {
+          alt: 'IUDX Logo',
+          src: 'img/iudx_logo.png',
+          width: 50,
+          height: 50,
+        },
         links: [
           {
             title: 'Docs',
