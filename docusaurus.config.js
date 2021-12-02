@@ -51,11 +51,35 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
+            type: 'dropdown',
+            label: 'Who Are You',
             position: 'left',
-            label: 'Getting Started',
+            items: [
+              {
+                label: 'Provider',
+                href: '/docs/intro',
+              },
+              {
+                label: 'Consumer',
+                href: 'https://iudx.org.in',
+              },
+              {
+                label: 'Delegate',
+                href: 'https://iudx.org.in',
+              },
+              {
+                label: 'Admin',
+                type: 'doc',
+                docId: 'intro',
+              }              
+            ],
           },
+          // {
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'left',
+          //   label: 'Getting Started',
+          // },
           {to: '/blog', label: 'Blog', position: 'left'},
           {to: '/new-page', label: 'NewPage', position: 'left'},
           {
@@ -67,6 +91,12 @@ const config = {
       },
       footer: {
         style: 'dark',
+        logo: {
+          alt: 'IUDX Logo',
+          src: 'img/iudx_logo.png',
+          width: 50,
+          height: 50,
+        },
         links: [
           {
             title: 'Docs',
