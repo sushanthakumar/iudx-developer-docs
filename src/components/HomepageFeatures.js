@@ -5,7 +5,7 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: 'Getting Started',
-    link:"../../docs/intro",
+    link:"../../docs/consumer",
     Svg: require('../../static/img/getting_started.svg').default,
     description: (
       <>
