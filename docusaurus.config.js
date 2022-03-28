@@ -56,16 +56,16 @@ const config = {
             position: 'left',
             items: [
               {
-                label: 'Provider',
-                href: '/docs/intro',
+                label: 'Consumer',
+                href: '/docs/consumer',
               },
               {
-                label: 'Consumer',
-                href: 'https://iudx.org.in',
+                label: 'Provider',
+                href: '/docs/provider',
               },
               {
                 label: 'Delegate',
-                href: 'https://iudx.org.in',
+                href: '/docs/delegate',
               },
               {
                 label: 'Admin',
