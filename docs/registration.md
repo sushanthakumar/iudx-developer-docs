@@ -14,33 +14,33 @@ In case you plan to register for these roles, please choose the appropriate emai
 ## Account Registration
 * On entering the Consumer or Publisher Panels, there is an option to register when you are prompted to sign in.
 
-![Register](../resources/auth/reg.png)<br>
+![Register](../resources/auth/reg.png)<br/>
 *Register*
 
 * Enter the required details.
 
-![Account details](../resources/auth/first-step-reg.png)<br>
+![Account details](../resources/auth/first-step-reg.png)<br/>
 *Account details*
 
 * And verify your email address. You should receive an email at your registered address, with a verification link. On clicking the link, the first step of registration is completed.
 
-![Email verification required](../resources/auth/email-verification.png)<br>
+![Email verification required](../resources/auth/email-verification.png)<br/>
 *Email verification required*
 
-![Sample email dialog](../resources/auth/sample-email.png)<br>
+![Sample email dialog](../resources/auth/sample-email.png)<br/>
 *Sample email dialog*
 
-![Account created, last step of registration pending](../resources/auth/last-step.png)<br>
+![Account created, last step of registration pending](../resources/auth/last-step.png)<br/>
 *Account created, last step of registration pending*
 
 ## Choosing roles
 
 Once email verification is complete, you can now choose the roles you would like to have, along with the appropriate organization (if applicable).
 
-![Choosing consumer role](../resources/auth/cons-role.png)<br>
+![Choosing consumer role](../resources/auth/cons-role.png)<br/>
 *Choosing consumer role*
 
-![Choosing provider/delegate role](../resources/auth/prov-dele.png)<br>
+![Choosing provider/delegate role](../resources/auth/prov-dele.png)<br/>
 *Choosing provider/delegate role*
 
 ## Successful registration and client ID, client Secret
@@ -49,5 +49,5 @@ Once email verification is complete, you can now choose the roles you would like
 
 If the registration is successful, a client ID and client secret would be presented. These credentials can be used to request for tokens via scripts or on the command line. **The client secret can only be viewed here, so keep it safe.** An API to update the client secret is being developed.
 
-![Successful registration; client ID and client secret](../resources/auth/success-reg.png)<br>
+![Successful registration; client ID and client secret](../resources/auth/success-reg.png)<br/>
 *Successful registration; client ID and client secret*
