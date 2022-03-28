@@ -5,6 +5,8 @@ sidebar_position: 1
 # Getting Started
 ## Who is an IUDX Consumer?
 ## How to register as an IUDX Consumer?
+Go to [Registration](./registration.md) for instructions on registering.
+ 
 ## What are the access privileges for an IUDX Consumer? 
  
 # Data Discovery
