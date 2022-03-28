@@ -70,7 +70,7 @@ const config = {
               {
                 label: 'Admin',
                 type: 'doc',
-                docId: 'intro',
+                docId: 'consumer',
               }              
             ],
           },
