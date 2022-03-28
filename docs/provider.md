@@ -13,7 +13,7 @@ The IUDX Admin team will initiate a provider registration by first creating an e
 ## Manage Policies
 A provider can create, view and delete access policies set for consumers and delegates in the Consumers tab.
 
-![View policies set for consumers](../resources/auth/view-pols.png)<br>
+![View policies set for consumers](../resources/auth/view-pols.png)<br/>
 *View policies set for consumers*
  
 A policy can be set for a consumer for a particular resource group/dataset with a restriction to access type. 
@@ -24,7 +24,7 @@ A policy can be set for a consumer for a particular resource group/dataset with 
 
 **The policy can only be created if the consumer exists and if the resource group/dataset exists on the IUDX Catalogue**. An expiry time for the policy can also be set. Once a policy expires, a consumer may not be able to request for tokens for the particular resource.
 
-![Create policy](../resources/auth/create-policy.png)<br>
+![Create policy](../resources/auth/create-policy.png)<br/>
 *Create policy*
 
 ## Delegations
@@ -43,8 +43,8 @@ A provider can also delegate the responsibility of uploading resources to the IU
 ### Manage Delegates
 A provider may view, create and delete delegations in the Delegates tab.
 
-![Viewing delegates](../resources/auth/view-delegates.png)<br>
+![Viewing delegates](../resources/auth/view-delegates.png)<br/>
 *Viewing delegates*
 
-![Add delegates](../resources/auth/create-delegate.png)<br>
+![Add delegates](../resources/auth/create-delegate.png)<br/>
 *Add delegates*
