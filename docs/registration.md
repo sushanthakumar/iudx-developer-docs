@@ -5,9 +5,16 @@ sidebar_position: 1
 # Registration
 
 ## Introduction
-Registration to use the IUDX platform is a two step process. Users are first required to create an account associated with an email address, and verify the account once created. This is followed by choosing the roles they would like to have.
 
-## Account Registration
+All users of the IUDX platform must be registered and authenticated to perform any secure operation offered by the platform. The details of these secure operations are defined and explained by all IUDX components in their repective API documentation. The registration process of a guest user on the IUDX platform is a simple four step process as outlined below:
+
+1. [Creating the Account](#account-creation)
+2. [Verifying the Email Address](#email-verification)
+3. [Assigning / Requesting a User Role](#requesting-user-roles)
+4. [Generating the Client ID + Secret](#generate-client-id--secret)
+
+## 1. Account Creation
+
 * On entering the Consumer or Publisher Panels, there is an option to register when you are prompted to sign in.
 
 ![Register](../resources/auth/reg.png)<br/>
@@ -18,7 +25,9 @@ Registration to use the IUDX platform is a two step process. Users are first req
 ![Account details](../resources/auth/first-step-reg.png)<br/>
 *Account details*
 
-* And verify your email address. You should receive an email at your registered address, with a verification link. On clicking the link, the first step of registration is completed.
+## 2. Email Verification
+
+* You should receive an email at your registered address, with a verification link. On clicking the link, the first step of registration is completed.
 
 ![Email verification required](../resources/auth/email-verification.png)<br/>
 *Email verification required*
@@ -29,7 +38,7 @@ Registration to use the IUDX platform is a two step process. Users are first req
 ![Account created, last step of registration pending](../resources/auth/last-step.png)<br/>
 *Account created, last step of registration pending*
 
-## Choosing roles
+## 3. Requesting User Roles
 
 Once email verification is complete, you can now choose the roles you would like to have, along with the appropriate organization (if applicable).
 
@@ -47,9 +56,9 @@ Providers and delegates are required to be associated with an organization. In t
 
 In case you plan to register for these roles, please choose the appropriate email address. Registering for the consumer role has no such restrictions.
 
-## Successful registration and client ID, client Secret
+**NOTE: Provider registration is subject to approval. A user registered with the provider role may be able to access the Publisher Panel once they have been approved**.
 
-**NOTE: Provider registration is subject to approval. A user registered with the provider role may be able to access the Publisher Panel once they have been approved**. 
+## 4. Generate Client ID + Secret
 
 If the registration is successful, a client ID and client secret would be presented. These credentials can be used to request for tokens via scripts or on the command line. **The client secret can only be viewed here, so keep it safe.** An API to update the client secret is being developed.
 
