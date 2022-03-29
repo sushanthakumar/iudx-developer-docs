@@ -61,11 +61,11 @@ const config = {
               },
               {
                 label: 'Provider',
-                href: '/docs/provider',
+                href: '/docs/Provider/provider',
               },
               {
                 label: 'Delegate',
-                href: '/docs/delegate',
+                href: '/docs/Delegate/delegate',
               }           
             ],
           },
