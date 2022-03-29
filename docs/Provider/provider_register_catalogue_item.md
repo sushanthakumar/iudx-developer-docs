@@ -5,7 +5,7 @@ sidebar_position: 4
 # Manage Catalogue Items
 
 ## Obtain Token to Create Catalogue
-A provider needs to get a token to create a catalogue/update/delete a catalogue entry in the IUDX catalogue server from the IUDX Auth service(authorization.iudx.org.in).<br/>
+A provider needs to get a token from the IUDX Auth service(authorization.iudx.org.in) to create a catalogue/update/delete a catalogue entry in the IUDX catalogue server.<br/>
 A provider can a obtain token using either by providing token header or providing clientId and clientSecret in the header and the payload mentioning the `itemId`, `itemType` and `role`.<br/>
 The `itemId` provided will be of the format: `<provider-domain>/<SHA1-of-provider-email>/<catalogue-url>/catalogue/crud`, itemType provided will be: resource and role will be: provider.<br/>
 For example, if the provider is `provider.foobar@datakaveri.org`, the `itemId` will be
