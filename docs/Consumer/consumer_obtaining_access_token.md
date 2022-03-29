@@ -31,3 +31,5 @@ After discovering an `Secure` resource from `Catalogue`, a consumer can obtain a
   "role": "consumer"
 }
 ```
+
+It is to be noted that unless an explicit `policy` is specified by the `Provider` in the `IUDX Authorisation Server` a  `consumer` will not obtain any access token.
