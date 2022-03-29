@@ -57,7 +57,7 @@ const config = {
             items: [
               {
                 label: 'Consumer',
-                href: '/docs/consumer',
+                href: '/docs/Consumer/consumer',
               },
               {
                 label: 'Provider',
@@ -66,12 +66,7 @@ const config = {
               {
                 label: 'Delegate',
                 href: '/docs/delegate',
-              },
-              {
-                label: 'Admin',
-                type: 'doc',
-                docId: 'consumer',
-              }              
+              }           
             ],
           },
           // {
@@ -80,8 +75,6 @@ const config = {
           //   position: 'left',
           //   label: 'Getting Started',
           // },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {to: '/new-page', label: 'NewPage', position: 'left'},
           {
             href: 'https://github.com/datakaveri/iudx-developer-docs',
             label: 'GitHub',
@@ -134,7 +127,7 @@ const config = {
             items: [
               {
                 label: 'Getting Started',
-                to: '/docs/consumer',
+                to: '/docs/Consumer/consumer',
               },
             ],
           },
