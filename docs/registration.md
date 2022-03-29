@@ -7,14 +7,6 @@ sidebar_position: 1
 ## Introduction
 Registration to use the IUDX platform is a two step process. Users are first required to create an account associated with an email address, and verify the account once created. This is followed by choosing the roles they would like to have.
 
-### Provider and Delegate Registration
-
-Providers and delegates are required to be associated with an organization. In the second step of registration, when choosing those roles, it is necessary to also choose an organization when selecting either `provider` or `delegate` roles. 
-
-**The registered email domain needs to match the chosen organization's domain.** For e.g., *delegate@datakaveri.org* may be able to register as a delegate associated with Data Kaveri organization (as the domain is datakaveri.org), but not with IISc (as the domain is iisc.ac.in). 
-
-In case you plan to register for these roles, please choose the appropriate email address. Registering for the consumer role has no such restrictions.
-
 ## Account Registration
 * On entering the Consumer or Publisher Panels, there is an option to register when you are prompted to sign in.
 
@@ -46,6 +38,14 @@ Once email verification is complete, you can now choose the roles you would like
 
 ![Choosing provider/delegate role](../resources/auth/prov-dele.png)<br/>
 *Choosing provider/delegate role*
+
+### Provider and Delegate Registration
+
+Providers and delegates are required to be associated with an organization. In the second step of registration, when choosing those roles, it is necessary to also choose an organization when selecting either `provider` or `delegate` roles. 
+
+**The registered email domain needs to match the chosen organization's domain.** For e.g., *delegate@datakaveri.org* may be able to register as a delegate associated with Data Kaveri organization (as the domain is datakaveri.org), but not with IISc (as the domain is iisc.ac.in). 
+
+In case you plan to register for these roles, please choose the appropriate email address. Registering for the consumer role has no such restrictions.
 
 ## Successful registration and client ID, client Secret
 
