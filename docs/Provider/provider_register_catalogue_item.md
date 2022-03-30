@@ -20,12 +20,33 @@ A provider can obtain a token using the [Create Token APIs](https://authorizatio
 The `itemId` here specifies the catalogue instance in the IUDX Catalogue Server in which the provider intends to perform a create/update/delete operation and is represented in the following format:<br/>
 `<provider-domain>/<SHA1-of-provider-email>/<catalogue-url>/catalogue/crud`
 
-It is to be noted that a provider would be entitled to create/update/delete catalogue entries only on their catalogue instances through an explicit policy is specified by the IUDX Admin in the IUDX Authorisation Server. A provider will not obtain any token to create/update/delete catalogue entries for other catalogue instances in the IUDX Catalogue Server.
+It is to be noted that a provider would be entitled to create/update/delete `catalogue` entries only on their catalogue instances through an explicit policy specified by the IUDX Admin in the IUDX Authorization Server. A provider will not obtain any token to perform create/update/delete operations on the `catalogue` entries for other catalogue instances in the IUDX Catalogue Server.
 
+## Upload Catalogue Entries to the Catalogue Server
+On successfully obtaining a [Create Catalogue Token](https://docs.iudx.org.in/docs/Provider/provider_register_catalogue_item#obtain-token-to-create-catalogue), a provider can upload the `catalogue` entries to the IUDX Catalogue Server.
 
+Assuming the `catalogue` entries for `provider` and `resource_server` are already uploaded by the IUDX Admin, a provider can know insert the entries for `resource_group` followed by the entries for the `resource` to the IUDX Catalogue Server.
 
-## Onboard Items in Catalogue
-Assume that rS and Provider items are already created by IUDX Admin. 
+A provider can use the [Create Item API](https://api.catalogue.iudx.org.in/apis#operation/createItem) of the IUDX Catalogue Server to insert an entry. 
 
-Add the Cat API to use to upload items (rG and res)
-Add scripts / screenshots (whichever applicable)
+The Python script below is an example to insert a `catalogue` entry to the IUDX Catalogue Server.
+```
+import json
+import requests
+
+catalogue_url = 'api.catalogue.iudx.org.in'
+token = '<token_obtained_from_IUDX_Authorization_Servers>'
+path = '<./path_to_the_catalogue_entry_file>'
+
+api = 'https://' + catalogue_url + '/iudx/cat/v1/item'
+
+headers = {'content-type': 'application/json', 'token': token}
+
+with open(path, 'r') as catalogue_file:
+    catalogue_item = json.load(catalogue_file)
+
+r = requests.post(api, json.dumps(catalogue_item), headers=headers)
+
+print r.status_code
+print r.json()
+```
