@@ -18,7 +18,8 @@ A provider can obtain a token using the [Create Token APIs](https://authorizatio
 }
 ```
 The `itemId` here specifies the catalogue instance in the IUDX Catalogue Server in which the provider intends to create/update/delete an entry and is represented in the following format:<br/>
-`<provider-domain>/<SHA1-of-provider-email>/<catalogue-url>/catalogue/crud`
+`<provider-domain>/<SHA1-of-provider-email>/<catalogue-url>/catalogue/crud`<br/>
+It is to be noted that a provider would be entitled to create/update/delete catalogue entries only on their catalogue instances through an explicit policy is specified by the IUDX Admin in the IUDX Authorisation Server. A provider will not obtain any token to create/update/delete catalogue entries for other catalogue instances in the IUDX Catalogue Server.
 
 
 
