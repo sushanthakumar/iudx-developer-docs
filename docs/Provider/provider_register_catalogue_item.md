@@ -29,25 +29,23 @@ Assuming the `catalogue` entries for `provider` and `resource_server` are alread
 
 The Python script below shows an example of inserting a `catalogue` entry to the IUDX Catalogue Server using the [Create Item API](https://api.catalogue.iudx.org.in/apis#operation/createItem).
 ``` { #create_catalogue_example }
+import json
+import requests
 
-<pre style="color:#000000;background:#ffffff;"><span style="color:#800000; font-weight:bold; ">import</span> json
-<span style="color:#800000; font-weight:bold; ">import</span> requests
+catalogue_url = 'api.catalogue.iudx.org.in'
+token = '<token_obtained_from_IUDX_Authorization_Servers>'
+path = '<./path_to_the_catalogue_entry_file>'
 
-catalogue_url <span style="color:#808030; ">=</span> <span style="color:#0000e6; ">'api.catalogue.iudx.org.in'</span>
-token <span style="color:#808030; ">=</span> <span style="color:#0000e6; ">'&lt;token_obtained_from_IUDX_Authorization_Servers&gt;'</span>
-path <span style="color:#808030; ">=</span> <span style="color:#0000e6; ">'&lt;./path_to_the_catalogue_entry_file&gt;'</span>
+api = 'https://' + catalogue_url + '/iudx/cat/v1/item'
 
-api <span style="color:#808030; ">=</span> <span style="color:#0000e6; ">'https://'</span> <span style="color:#44aadd; ">+</span> catalogue_url <span style="color:#44aadd; ">+</span> <span style="color:#0000e6; ">'/iudx/cat/v1/item'</span>
+headers = {'content-type': 'application/json', 'token': token}
 
-headers <span style="color:#808030; ">=</span> <span style="color:#800080; ">{</span><span style="color:#0000e6; ">'content-type'</span><span style="color:#808030; ">:</span> <span style="color:#0000e6; ">'application/json'</span><span style="color:#808030; ">,</span> <span style="color:#0000e6; ">'token'</span><span style="color:#808030; ">:</span> token<span style="color:#800080; ">}</span>
+with open(path, 'r') as catalogue_file:
+    catalogue_item = json.load(catalogue_file)
 
-<span style="color:#800000; font-weight:bold; ">with</span> <span style="color:#400000; ">open</span><span style="color:#808030; ">(</span>path<span style="color:#808030; ">,</span> <span style="color:#0000e6; ">'r'</span><span style="color:#808030; ">)</span> <span style="color:#800000; font-weight:bold; ">as</span> catalogue_file<span style="color:#808030; ">:</span>
-    catalogue_item <span style="color:#808030; ">=</span> json<span style="color:#808030; ">.</span>load<span style="color:#808030; ">(</span>catalogue_file<span style="color:#808030; ">)</span>
+r = requests.post(api, json.dumps(catalogue_item), headers=headers)
 
-r <span style="color:#808030; ">=</span> requests<span style="color:#808030; ">.</span>post<span style="color:#808030; ">(</span>api<span style="color:#808030; ">,</span> json<span style="color:#808030; ">.</span>dumps<span style="color:#808030; ">(</span>catalogue_item<span style="color:#808030; ">)</span><span style="color:#808030; ">,</span> headers<span style="color:#808030; ">=</span>headers<span style="color:#808030; ">)</span>
-
-<span style="color:#800000; font-weight:bold; ">print</span> r<span style="color:#808030; ">.</span>status_code
-<span style="color:#800000; font-weight:bold; ">print</span> r<span style="color:#808030; ">.</span>json<span style="color:#808030; ">(</span><span style="color:#808030; ">)</span>
-</pre>
+print r.status_code
+print r.json()
 
 ```
