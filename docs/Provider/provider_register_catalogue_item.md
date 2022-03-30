@@ -28,7 +28,7 @@ On successfully obtaining a [Create Catalogue Token](https://docs.iudx.org.in/do
 Assuming the `catalogue` entries for `provider` and `resource_server` are already uploaded by the IUDX Admin, a provider can know insert the entries for `resource_group` followed by the entries for the `resource` to the IUDX Catalogue Server.
 
 The Python script below shows an example of inserting a `catalogue` entry to the IUDX Catalogue Server using the [Create Item API](https://api.catalogue.iudx.org.in/apis#operation/createItem).
-``` { #create_catalogue_example }
+```python { #create_catalogue_example }
 import json
 import requests
 
