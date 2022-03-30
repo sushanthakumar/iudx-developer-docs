@@ -36,7 +36,7 @@ The [Register Ingestion API](https://rs.iudx.org.in/apis#operation/registeradapt
 ```json
 {
     "entities": [
-        "datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/aqm-device-id-577"
+        "datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/aqm-device-577"
     ]
 }
 ```
