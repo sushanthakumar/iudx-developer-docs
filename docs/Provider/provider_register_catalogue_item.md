@@ -12,12 +12,13 @@ To obtain a token, a provider can either specify their `clientId` and `clientSec
 A provider can obtain a token using the [Create Token APIs](https://authorization.iudx.org.in/apis#operation/post-auth-v1-token) with the following request body.
 ```json
 {
-  "itemId": "datakaveri.org/49276e9045a8a4c5c5bcc5b3b6923786896ff02d/catalogue.iudx.org.in/catalogue/crud",
+  "itemId": "datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/catalogue.iudx.org.in/catalogue/crud",
   "itemType": "resource",
   "role": "provider"
 }
 ```
-
+The `itemId` here specifies the catalogue instance in the IUDX Catalogue Server in which the provider intends to create/update/delete an entry and is represented in the following format:<br/>
+`<provider-domain>/<SHA1-of-provider-email>/<catalogue-url>/catalogue/crud`
 
 
 
