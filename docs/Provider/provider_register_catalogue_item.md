@@ -47,5 +47,4 @@ r = requests.post(api, json.dumps(catalogue_item), headers=headers)
 
 print r.status_code
 print r.json()
-
 ```
