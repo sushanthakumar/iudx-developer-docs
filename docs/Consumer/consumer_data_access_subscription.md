@@ -78,3 +78,6 @@ Note: A `resource` can be differentiated using the `id` available in the data pa
 
 ### Deleting a subscription
 A `consumer` can use the [Delete Subscription API](https://rs-test.iudx.io/apis#operation/deleteasubscription) to delete a subscription. This will delete the subscription queue and all existing resources streamed through the queue will be inaccessible.
+
+### Reset Streaming User Password
+A `consumer` can reset the password given to them by the `streaming server` using the [Reset Streaming Password API](https://rs-test.iudx.io/apis#operation/resetPassword). This change will reset all active connections and a `consumer` should restart their `client applications` accordingly.
