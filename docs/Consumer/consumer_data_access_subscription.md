@@ -33,7 +33,7 @@ It is to be noted that unless an explicit `policy` for subscription is specified
 
  
 ### Creating a new subscription
-A consumer can use the [Subscription APIs]() to register a new subscription. On registration, information about the streaming server which includes `URL`, `port`, `vHost` along with `subscription-id`, `username` and `apiKey` will be shared. Using the above information a consumer can connect to the streaming server to get the requested data as a `stream`.
+A consumer can use the [Subscription APIs](https://rs-test.iudx.io/apis#operation/createastreamingsubscription) to register a new subscription. On registration, information about the streaming server which includes `URL`, `port`, `vHost` along with `subscription-id`, `username` and `apiKey` will be shared. Using the above information a consumer can connect to the streaming server to get the requested data as a `stream`.
 
 ```python
 import pika
