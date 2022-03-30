@@ -5,7 +5,7 @@ sidebar_position: 4
 # Manage Catalogue Items
 
 ## Obtain Token to Create Catalogue
-To create/update/delete a catalogue entry in the IUDX Catalogue Server, a provider should obtain a token using IUDX Authorization Servers [Create Token APIs](https://authorization.iudx.org.in/apis#operation/post-auth-v1-token).
+To create/update/delete a `catalogue` entry in the IUDX Catalogue Server, a provider should obtain a token using IUDX Authorization Servers [Create Token APIs](https://authorization.iudx.org.in/apis#operation/post-auth-v1-token).
 
 To obtain a token, a provider can either specify their `clientId` and `clientSecret` in the header or specify a token header. The `clientId` and `clientSecret` are generated for a provider on their [Successful Registration](https://docs.iudx.org.in/docs/registration#successful-registration-and-client-id-client-secret).
 
