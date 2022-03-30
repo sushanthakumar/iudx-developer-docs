@@ -40,3 +40,6 @@ The [Register Ingestion API](https://rs.iudx.org.in/apis#operation/registeradapt
     ]
 }
 ```
+
+### Reset Streaming User Password
+A `provider` can reset the password given to them by the `streaming server` using the [Reset Streaming Password API](https://rs-test.iudx.io/apis#operation/resetPassword). This change will reset all active connections and a `provider` should restart their `client applications` accordingly.
