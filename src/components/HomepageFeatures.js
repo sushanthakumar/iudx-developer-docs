@@ -5,67 +5,61 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: 'Getting Started',
-    link:"../../docs/Consumer/consumer",
+    link:"../../docs/registration",
     Svg: require('../../static/img/getting_started.svg').default,
     description: (
       <>
-        What is <a href={"https://iudx.org.in/"} target={"_blank"}>IUDX?</a>
-        
+        How to register with IUDX?        
       </>
     ),
   },
   {
-    title: 'Consuming datasets',
-    link:"",
+    title: 'Discovering and Consuming datasets',
+    link:"../../docs/Consumer/consumer",
     Svg: require('../../static/img/consuming_data.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        How to connect your applications with IUDX?
       </>
     ),
   },
   {
-    title: 'Add your datasets to IUDX',
-    link:"",
+    title: 'Add your data resources to IUDX',
+    link:"../../docs/Provider/provider_register_catalogue_item",
     Svg: require('../../static/img/datasets.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+		How to add data resources and manage them using IUDX? 
       </>
     ),
   },
   {
-    title: 'IUDX for data providers',
-    link:"",
+    title: 'Manage Access Control of your data resources',
+    link:"../../docs/Provider/provider_manage_policies",
     Svg: require('../../static/img/provider.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
+		How to manage a consumer request to a resource?      
+	  </>
     ),
   },
   {
-    title: 'API provider resources',
-    link:"",
+    title: 'Contribute to IUDX',
+    link:"https://github.com/datakaveri",
     Svg: require('../../static/img/Api.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+		Get into the world of IUDX and start your contribution to the world of OpenSource to improvise IUDX
       </>
     ),
   },
   {
-    title: 'How to subscribe to a resource?',
-    link:"",
+    title: 'Connect with us',
+    link:"https://iudx.org.in/contact-us/",
     Svg: require('../../static/img/subscribe.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+		Get in touch with us and subscribe to our newsletters, talks, blogs etc.
       </>
     ),
   },
