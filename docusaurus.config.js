@@ -55,6 +55,10 @@ const config = {
             label: 'Who Are You',
             position: 'left',
             items: [
+			  {
+                label: 'New User',
+                href: '/docs/registration',
+              },
               {
                 label: 'Consumer',
                 href: '/docs/Consumer/consumer',
