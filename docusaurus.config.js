@@ -155,19 +155,19 @@ const config = {
 							},
 							{
 								label: 'Datasets Catalogue',
-								href: 'https://catalogue.iudx.org.in/'
+								to: 'https://catalogue.iudx.org.in/'
 							},
 							{
 								label: 'Provider Dashboard',
-								href: 'https://publisher.iudx.org.in/'
+								to: 'https://publisher.iudx.org.in/'
 							},
 							{
 								label: 'Consumer Dashboard',
-								href: 'https://consumer.iudx.org.in/'
+								to: 'https://consumer.iudx.org.in/'
 							},
 							{
 								label: 'Community Forum',
-								href: 'https://forum.iudx.io/'
+								to: 'https://forum.iudx.io/'
 							}
 						]
 					},
@@ -176,23 +176,23 @@ const config = {
 						items: [
 							{
 								label: 'Sandbox',
-								href: 'https://sandbox.iudx.org.in/'
+								to: 'https://sandbox.iudx.org.in/'
 							},
 							{
 								label: 'Documentation',
-								href: 'https://docs.iudx.org.in/'
+								to: 'https://docs.iudx.org.in/'
 							},
 							{
 								label: 'Catalogue Server API Docs',
-								href: 'https://api.catalogue.iudx.org.in/apis'
+								to: 'https://api.catalogue.iudx.org.in/apis'
 							},
 							{
 								label: 'Resource Server API Docs',
-								href: 'https://rs.iudx.org.in/apis'
+								to: 'https://rs.iudx.org.in/apis'
 							},
 							{
 								label: 'Authorization Server API Docs',
-								href: 'https://authorization.iudx.org.in/apis'
+								to: 'https://authorization.iudx.org.in/apis'
 							}
 						]
 					},
