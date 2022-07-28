@@ -18,7 +18,7 @@ module.exports = `<div class="col-3">
         <a href="https://www.iisc.ac.in/" target="_blank">
             <img
                 class="iisc-logo"
-                src="/img/iisc-logo.png"
+                src="https://iudx-catalogue-assets.s3.ap-south-1.amazonaws.com/iisc.png"
                 title="IISc Bangalore"
             />
         </a>
