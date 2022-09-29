@@ -13,7 +13,7 @@ const config = {
 	baseUrl: '/',
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
-	favicon: 'img/favicon.ico',
+	favicon: 'img/icon.ico',
 	organizationName: 'IUDX', // Usually your GitHub org/user name.
 	projectName: 'IUDX', // Usually your repo name.
 
