@@ -16,6 +16,11 @@
   --ifm-code-font-size: 95%;
 } */
 
+
+  a:hover{
+    text-decoration: none !important;
+  }
+
 :root{
   --ifm-color-primary: #0b457f;
   --ifm-color-primary-dark: #0a3e72;
