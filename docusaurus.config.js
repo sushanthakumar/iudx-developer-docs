@@ -134,11 +134,12 @@ const config = {
                           />
                         </a>
                         <div class="place">
-                          <a href="https://goo.gl/maps/MyKzgG2gzK1JsENz7" target="_blank">
+                          <a href="https://goo.gl/maps/sHqNUTRGFDmD2kbX8" target="_blank">
                             <img src="img/location.png" />
                             <span>
-                              Indian Institute of Science, Entrepreneurship Centre,
-                              Ground Floor, Bengaluru, Karnataka 560012
+                              Ground Floor, Indian Institute of Science,<br>
+			      Entrepreneurship Centre Road, Entrepreneurship Centre,<br>
+			      Bengaluru - 560012, Karnataka
                             </span>
                           </a>
                         </div>
@@ -206,7 +207,7 @@ const config = {
 						]
 					}
 				],
-				copyright: `Copyright © ${new Date().getFullYear()} IUDX.`
+				copyright: `© ${new Date().getFullYear()} IUDX.`
 			},
 			prism: {
 				theme: lightCodeTheme,
