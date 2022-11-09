@@ -168,7 +168,7 @@ const config = {
 							},
 							{
 								label: 'Community Forum',
-								to: 'https://forum.iudx.io/'
+								to: 'https://forum.iudx.org.in/'
 							}
 						]
 					},
