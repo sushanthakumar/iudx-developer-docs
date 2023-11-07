@@ -20,8 +20,8 @@ Once you have registered as a consumer or have been approved as a provider, you 
 
 4. **NOTE : Resetting client credentials will result in revocation of all existing tokens. Additionally, the old client secret will not be accepted in token requests.**
 
-![Getting default client credentials](../resources/auth/go-to-my-profile.png)<br/>
+![Getting default client credentials](../resources/auth/client-creds.png)<br/>
 *Getting default client credentials*
 
-![Downloading default client credentials](../resources/auth/go-to-my-profile.png)<br/>
+![Downloading default client credentials](../resources/auth/download-creds.png)<br/>
 *Downloading default client credentials*
