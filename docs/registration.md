@@ -54,5 +54,5 @@ Users who require the provider role would need to give some extra information re
 
 **NOTE: Provider registration is subject to approval. A user registered with the provider role may be able to access the Publisher Panel once they have been approved**.
 
-![Choosing provider role](../resources/auth/prov-dele.png)<br/>
+![Choosing provider role](../resources/auth/prov-role.png)<br/>
 *Choosing provider role*
