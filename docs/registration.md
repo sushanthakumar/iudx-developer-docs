@@ -52,7 +52,7 @@ Once email verification is complete, you can now choose the roles you would like
 
 Users who require the provider role would need to give some extra information regarding the organization they are associated with. 
 
-**NOTE: Provider registration is subject to approval. A user registered with the provider role may be able to access the Provider Panel once they have been approved by the admin of the Resource Server they have chosen**.
+**NOTE: Provider registration is subject to approval. A user registered with the provider role may be able to access the Provider Panel once they have been approved by the admin of the Resource Server they have chosen. Providers who are waiting for approval may connect with the point of contact in IUDX to expedite the approval process.**.
 
 ![Choosing provider role](../resources/auth/prov-role.png)<br/>
 *Choosing provider role*
