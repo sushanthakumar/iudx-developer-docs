@@ -56,3 +56,6 @@ Users who require the provider role would need to give some extra information re
 
 ![Choosing provider role](../resources/auth/prov-role.png)<br/>
 *Choosing provider role*
+
+![Successful provider registration (pending RS admin approval)](../resources/auth/succ-prov-reg.png)<br/>
+*Successful provider registration (pending RS admin approval)*
